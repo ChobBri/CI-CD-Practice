@@ -46,6 +46,7 @@ module.exports = {
     ],
     'no-console': 'off',
     'react/prop-types': 0,
-    'no-unused-vars': 'off'
+    'no-unused-vars': 'off',
+    'no-undef': 'off'
   }
 }
