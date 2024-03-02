@@ -38,3 +38,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: patch
+        if: ${{ !contains(join(github.event.commits.*.message, ', '), '#skip') }}
